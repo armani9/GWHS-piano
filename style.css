@@ -1,0 +1,80 @@
+h1{
+    font-size:30px;
+    font-family:verdana;
+    color:blue;
+}
+
+p{
+    font-family:courier;
+    color:blue;
+}
+
+body{
+  background-image: url("http://www.netanimations.net/Colorful-musical-notes-zoom-past-you.gif"), url("http://www.netanimations.net/Colorful-musical-notes-zoom-past-you.gif");
+  background-size: 500px;
+}
+.white {
+  
+ background-color:white;
+border: black 2px solid;
+height: 300px; 
+  width:50px;
+float:left;
+}
+
+.black {
+  background-color:black;
+  border: black 2px solid;
+  height: 200px; 
+  width:30px;
+float:left;
+  
+  
+}
+h1{
+  text-align: center;
+  font-size:30px;
+  color:black;
+  border-style:dotted;
+  border-width:5px;
+  border-color: white;
+ 
+}
+p{
+  text-align: center;
+  color:black;
+  font-size:25px;
+}
+
+
+#position {
+  position: relative;
+  margin:0 auto;
+  text-align: center;
+  width:378px;
+  height:304px;
+}
+
+#sharps {
+  position: absolute
+}
+#asharp {
+  position:absolute;
+    left: 308px;
+}
+#gsharp {
+  position:absolute;
+    left: 255px;
+}
+#fsharp {
+  position:absolute;
+    left: 200px;
+}
+#dsharp {
+  position:absolute;
+    left: 92px;
+}
+#csharp {
+  position:absolute;
+    left: 37px;
+}
