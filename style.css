@@ -1,17 +1,61 @@
-h1{
-    font-size:30px;
-    font-family:verdana;
-    color:blue;
-}
 
-p{
-    font-family:courier;
-    color:blue;
-}
 
 body{
   background-image: url("http://www.netanimations.net/Colorful-musical-notes-zoom-past-you.gif"), url("http://www.netanimations.net/Colorful-musical-notes-zoom-past-you.gif");
   background-size: 500px;
+  background-color: black;
+}
+#columns {
+position: absolute;
+bottom: 0;
+
+}
+#key6 {
+  position: absolute;
+  bottom:0;
+  right:0;
+  left:300px;
+  text-align: center;
+  margin:0 auto;
+}
+#key5 {
+  position: absolute;
+  bottom:0;
+  right:0;
+  left:200px;
+  text-align: center;
+  margin:0 auto;
+}
+#key4 {
+  position: absolute;
+  bottom:0;
+  right:0;
+  left:100px;
+  text-align: center;
+  margin:0 auto;
+}
+#key3 {
+  position: absolute;
+  bottom:0;
+  right:220px;
+  left:0;
+}
+#key2 {
+  position: absolute;
+  bottom:0;
+  right:120px;
+  left:0;
+}
+#key {
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0;
+text-align: center; 
+margin: 0 auto; 
+}
+a{
+  color:white;
 }
 .white {
   
@@ -20,33 +64,45 @@ border: black 2px solid;
 height: 300px; 
   width:50px;
 float:left;
+margin:0 auto;
+text-align: center;
 }
-
+.white span {
+  position: absolute;
+  bottom:0;
+}
 .black {
   background-color:black;
   border: black 2px solid;
   height: 200px; 
   width:30px;
 float:left;
+margin:0 auto;  
   
-  
+}
+.black span {
+  position: absolute;
+  bottom:0;
 }
 h1{
   text-align: center;
-  font-size:30px;
-  color:black;
+  font-size:35px;
+  color:#ff66ff;
   border-style:dotted;
   border-width:5px;
-  border-color: white;
+  border-color: pink;
  
 }
 p{
   text-align: center;
-  color:black;
+  color:white;
   font-size:25px;
 }
-
-
+#columns {
+            width: 200px;
+            text-align: left;
+            clear: left;
+}
 #position {
   position: relative;
   margin:0 auto;
@@ -61,20 +117,26 @@ p{
 #asharp {
   position:absolute;
     left: 308px;
+    color:white;
 }
 #gsharp {
   position:absolute;
     left: 255px;
+    color:white;
+    
 }
 #fsharp {
   position:absolute;
     left: 200px;
+    color:white;
 }
 #dsharp {
   position:absolute;
     left: 92px;
+    color:white;
 }
 #csharp {
   position:absolute;
     left: 37px;
+    color:white;
 }
